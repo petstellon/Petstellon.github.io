@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>VICTORY POINT EVENTS CENTRE</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+<body>
+
+<div id="banner">
+</div>
+<div id="maincontainer">
+   
+   <div id="inside-maincount">
+     <div id="booking-count">
+       <h3 style="background-color:#38745c; text-align:center; margin:0; border-radius: 20px 0 0 0; font-family: Arial; color:#99d5bd; border-bottom:2px solid #99d5bd; padding: 2px;">Booking Options:</h3>
+         
+      <div id="inside_booking_cont">
+         CANOPY:-<br /><select id="canopyType" style="width:157px; border-radius: 20px 0 0 20px;  font-size:15px; font-weight:bold; padding: 2px; ">
+  	 <option value="12 X 24">(12 X 24) CANOPY</option>
+  	 <option value="20 X 60">(20 X 60) CANOPY</option>
+   	 <option value="40 X 100 C">(40 X 100 (C)) CANOPY</option>
+  	 <option value="40 X 100">(40 X 100) CANOPY</option>
+	 </select><button type="button" style="background-color: green;  color: white; border-radius: 20px 20px;" onclick="test()">Validate</button><br><br>
+         <table id="booking" width="100%">
+           <tr>
+             <td>Canopy: <br><input class="stylee" type="text" value="40" /></td>
+             <td>Chairs: <br><input class="stylee" type="text" value="40" /></td>
+             <td>Tables: <br><input class="stylee" type="text" value="40" /></td>
+           </tr>
+           <tr>
+             <td>Cleaning: <br><input class="stylee" type="text" value="40" /></td>
+             <td>Space: <br><input class="stylee" type="text" value="40" /></td>
+             <td>Light: <br><input class="stylee" type="text" value="40" /></td>
+           </tr>
+           <tr>
+             <td>Fan: <br><input class="stylee" type="text" value="40" /></td>
+             <td colspan="2" >Others: <br><select style="width:130px;">
+             <option value="12 X 24">(12 X 24) CANOPY</option>
+  	     <option value="20 X 60">(20 X 60) CANOPY</option>
+   	     <option value="40 X 100 C">(40 X 100 (C)) CANOPY</option>
+  	     <option value="40 X 100">(40 X 100) CANOPY</option> 
+             </select>
+             <br><hr><input class="stylee" type="text" value="40" />
+             </td>
+           </tr>
+         </table>
+      </div>
+         <button style="background-color: red; color:white; font-family: Arial; font-size: 15px; font-weight: bold; border-radius: 10px 0 0 20px; margin: 0 0 0 20px; float: left; border-right:0;" type="button" onclick="goBack()">UNDO</button>
+         <button style="background-color: green; color:white; font-family: Arial; font-size: 15px; font-weight: bold; border-radius: 0 10px 20px 0; float: left; margin: 0; border-left:0; " type="button">CALCULATE RATE</button>
+     </div>
+     <div id="image-banner">
+     <img id="imgdis" src="1.png" style="width: 670px; height: 150px; border-radius: 0 20px 0 0;" />
+     </div>
+     <div id="total-cont">
+       <h1 style="color: white; padding:5px; margin-top:0; text-align: center; font-size:40px; width:70%; margin: auto; "> N 50,000 </h1>
+     </div>
+     <div id="display-count">
+       <table id="displayTable" width="100%">
+         <tr>
+           <th>DESCRIPTION</th>
+           <th>QUANTITY</th>
+           <th>UNIT PRICE</th>
+           <th>AMOUNT</th>
+         </tr>
+       </table>
+     </div>
+   </div>
+</div>
+
+<script src="myScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+
+#maincontainer {
+    width: 1000px;
+    height: 600px;
+    background-color: #549f81;
+    margin: 0 auto;
+    //box-shadow: 3px 3px 3px 3px #4a6b59; 
+    border: 1px solid #38745c;
+    border-radius: 0 0 20px 20px;
+}
+
+#banner {
+    width: 1000px;
+    height: 30px;
+    background: green url("banner.png") top center no-repeat;
+    border-radius: 20px 20px 0 0;
+    margin: 0 auto;
+}
+
+#image-banner {
+    //background: green url("1.png") top center no-repeat;
+    background-color: #38745c;
+    width: 670px;
+    height: 150px;
+    //padding: 10px;
+    //background-color: black;
+    float:right;
+    border-radius: 0 20px 0 0;
+}
+
+#inside-maincount {
+    background-color: #38745c;
+    width: 980px;
+    height: 580px;
+    border-radius: 20px 20px;
+    margin: 10px;
+    //box-shadow: 3px 3px 3px 3px black;
+    border: 1px solid #cff8e2;
+}
+
+#booking-count {
+   width: 256px;
+   height: 536px;
+   background-color: #549f81;
+   color: #224d3c;
+   float: left;
+   border-radius: 20px 0 0 20px;
+   margin: 10px; 
+   padding:10px;
+   border-top: 4px solid #cff8e2;
+   border-right: 4px solid #cff8e2;
+}
+
+#inside_booking_cont {
+   width: 236px;
+   height: 380px;
+   background-color: #cff8e2;
+   color: black;
+   padding:10px;
+   margin-bottom: 6px; 
+   border-radius: 0 0 20px 20px;
+   border-bottom: 4px solid green;
+   font-size: 15px;
+   text-align:center;
+   font-weight:bold;
+}
+
+#display-count {
+   width: 634px;
+   height: 320px;
+   background-color: #9eceb4;
+   border-left: 4px solid #cff8e2;
+   float: left;
+   border-radius: 0 0 20px 0;
+   margin: 10px;
+   padding: 10px; 
+   overflow-y: scroll;
+   margin-top: 0;
+}
+
+#total-cont {
+   width: 654px;
+   height: 62px;
+   background-color: #549f81;
+   border-top: 4px solid #cff8e2;
+   border-left: 4px solid #cff8e2;
+   border-bottom: 4px solid #cff8e2;
+   //padding: 5px;
+   float: right;
+   margin: 10px;
+   margin-right: 12px;
+   margin-bottom: 0;
+   border-radius: 0 20px 0 0;
+}
+
+
+
+#displayTable, table {
+   border-collapse: collapse;
+   border-radius: 0 0 0 20px;
+}
+
+#displayTable th {
+   background-color: #1b392d;
+   border: 1px solid #1b392d;
+   color: lightgrey;
+   padding: 5px;
+   border-radius: 0 0 0 20px;
+   //border: 1px solid white;
+}
+
+#displayTable td {
+   background-color: green;
+   //border: 1px solid #1b392d;
+   color: white;
+   padding: 5px;
+   text-align: center;
+   border-radius: 0 20px 0 20px;
+   
+}
+
+#displayTable tr {
+   margin: 10px;
+   border: 1px solid white;
+}
+
+body {
+    background-color: #a7e5be;
+}
+
+.stylee {
+   width:50px;
+   height:20px;
+   font-size:20px;
+   text-align:center;
+   //border-radius: 10px 10px;
+   color: grey;
+}
+
+#booking tr, td {
+   margin:10px;
+   padding:10px;
+   border: 1px solid green;
+}
