@@ -1,0 +1,59 @@
+<DOCTYPE! html>
+<html lang="en-US">
+<head>
+  <style>
+  #maindiv {
+      border: 1px solid green;
+      width: 100%;
+      height:70px;
+      margin:10px auto;
+      padding:10px;
+      box-shadow: 3px 3px 3px green;
+      border-radius: 100px;
+   }
+  #bar {
+      background-color: green;
+      //margin: auto;
+      width: 1%;
+      height:60px;
+      border-radius: 100px;
+   }
+   p {
+      text-align: center;
+      color: white;
+      background-color: green;
+   }
+  </style>
+</head>
+
+<body>
+<h1>My progress bar</h1>
+<p>Click try it button to test</p>
+<div id="maindiv">
+  <div id="bar"></div>
+</div><p id="demo"></p>
+<input type="button" onclick="progBar()" value="Try it" /><br>
+
+
+<script>
+var width = 1;
+//var myVar = setInterval(function(){progBar(), 1000});
+function progBar() {
+    var pbar, sec, getDate, dis;
+    dis = document.getElementById("demo");
+    getDate = new Date();
+    sec = getDate.getSeconds();
+    pbar = document.getElementById("bar");
+    if(width < 100) {
+        width += 1;
+        pbar.style.width = width + "%";
+        setInterval(function(){progBar(), 1000});
+        dis.innerHTML = width + "%";
+    } else {
+        clearInterval("myVar");
+        width=1;
+    }
+}       
+</script>
+</body>
+</html>
